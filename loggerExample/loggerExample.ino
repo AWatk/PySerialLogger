@@ -49,6 +49,12 @@ void loop(void) {
     data += ",Data3:" + String(data3); //no comma for last data value
   }
 
+ //new data can be sent later
+  if (e > 5.0)
+  {
+    data += ",Data4:" + String(random(25));
+  }
+
   data += endChar; // end with endChar
 
   // send serial messages including data
