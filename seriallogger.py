@@ -1,12 +1,16 @@
 import os
+import sys
 import serial
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from datetime import datetime
 import time
-from multiprocessing import Process, Queue, Lock
+from multiprocessing import Process, Queue, Lock, Event
+import queue
 import re
 from collections import defaultdict
+import tkinter as tk
+from timeit import default_timer as timer
 
 def runGraph(d,maxLength,timeUnits, lock):
     # define and adjust figure
@@ -75,7 +79,9 @@ def runGraph(d,maxLength,timeUnits, lock):
 
     plt.show()
 
-def serialProcessor(logDir,d,inputQ,lock, startChar, endChar):
+def serialProcessor(port,baudRate,logDir,d,inputQ, outQ, errQ,lock, startChar, endChar):
+    sys.stdout = StdoutRedirector(outQ)
+    sys.stderr = StdoutRedirector(errQ)
     curTime = datetime.now().strftime("%Y_%m_%d-%H_%M_%S")
     if not os.path.exists(logDir):
         os.makedirs(logDir)
@@ -84,7 +90,7 @@ def serialProcessor(logDir,d,inputQ,lock, startChar, endChar):
     dataStrRegex = re.compile(re.escape(startChar) + r"(.*)" + re.escape(endChar))
     with open(allFilename,'w') as af:
         with open(dataFilename, 'w') as df:
-            ser = serial.Serial('COM5',115200)
+            ser = serial.Serial(port,baudRate)
             ser.close()
             ser.timeout = 110
             ser.open()
@@ -118,34 +124,148 @@ def serialProcessor(logDir,d,inputQ,lock, startChar, endChar):
                 else:
                     print(rxLine) # if not data, print to terminal
 
+def monitorInput(fn,inputQ):
+    sys.stdin = os.fdopen(fn)
+    while True:
+        inputQ.put(input())
+        print("Input Received")
+
+class StdoutRedirector(object):
+    def __init__(self, queue):
+        self.output = queue
+
+    def write(self, string):
+        self.output.put(string)
+
+    def flush(self):
+        pass
+        
+
+def createGui():
+    exitEvent = Event()
+    processes = []
+    inputQ = Queue()
+    outputQ = Queue()
+    errQ = Queue()
+
+    def StartProcesses():
+        logDirectory = logs_entry.get()
+        plotMaxLength = int(length_entry.get())
+        timeUnits = timeUnits_entry.get()
+        startChar = startChar_entry.get()
+        endChar = endChar_entry.get()
+        port = comPort_entry.get()
+        baudRate = int(baudRate_entry.get())
+
+        inputFn = sys.stdin.fileno()
+
+        d = Queue()
+        
+        lock = Lock()
+        processes.append(Process(target=runGraph,args=(d,plotMaxLength,timeUnits,lock)))
+        processes.append(Process(target=serialProcessor, args=(port, baudRate,logDirectory,d,inputQ,outputQ,errQ,lock,startChar,endChar)))
+        processes.append(Process(target=monitorInput, args=(inputFn,inputQ)))
+        for p in processes:
+            p.start()
+        root.after(0, stdoutUpdate)
+
+    def EndProcesses(*args):
+        if not exitEvent.is_set():
+            exitEvent.set()
+            for p in processes:
+                p.terminate()
+
+    def stdoutUpdate():
+        console.configure(state=tk.NORMAL)
+        #while not outputQ.empty():
+        try:
+            console.insert('end',outputQ.get_nowait())
+        except queue.Empty:
+            pass
+        #while not errQ.empty():
+        try: 
+            console.insert('end',errQ.get_nowait(), 'error')
+        except queue.Empty:
+            pass
+        console.see('end')
+        console.configure(state=tk.DISABLED)
+        root.after(1,stdoutUpdate)
+
+    def sendInput():
+        inputQ.put(inputCon.get())
+        inputCon.delete(0,'end')
+
+    # create the main window
+    root = tk.Tk()
+    root.title("Serial Logger")
+
+    # create labels and intries
+    logs_label = tk.Label(root, text="Name of log directory")
+    logs_label.pack()
+    logs_entry = tk.Entry(root)
+    logs_entry.insert(0,'logs')
+    logs_entry.pack()
+
+    length_label = tk.Label(root, text='Plot max length')
+    length_label.pack()
+    length_entry = tk.Entry(root)
+    length_entry.insert(0,'200')
+    length_entry.pack()
+
+    timeUnits_label = tk.Label(root, text='Plot time units')
+    timeUnits_label.pack()
+    timeUnits_entry = tk.Entry(root)
+    timeUnits_entry.insert(0,'ms')
+    timeUnits_entry.pack()
+
+    startChar_label = tk.Label(root, text='Start Char')
+    startChar_label.pack()
+    startChar_entry = tk.Entry(root)
+    startChar_entry.insert(0,'~')
+    startChar_entry.pack()
+
+    endChar_label = tk.Label(root, text='End Char')
+    endChar_label.pack()
+    endChar_entry = tk.Entry(root)
+    endChar_entry.insert(0,'~')
+    endChar_entry.pack()
+
+    comPort_label = tk.Label(root, text='Serial Port')
+    comPort_label.pack()
+    comPort_entry = tk.Entry(root)
+    comPort_entry.insert(0,'COM5')
+    comPort_entry.pack()
+
+    baudRate_label = tk.Label(root, text='Baud Rate')
+    baudRate_label.pack()
+    baudRate_entry = tk.Entry(root)
+    baudRate_entry.insert(0,'115200')
+    baudRate_entry.pack()
+
+    #console = tk.Text(root, height=2.5, width = 30, bg="light cyan", state=tk.NORMAL)
+    console = tk.Text(root)
+    console.tag_configure('error', foreground='red')
+    console.pack()
+
+    inputCon = tk.Entry(root)
+    inputCon.pack()
+
+    
+    # create start button
+    start_button = tk.Button(root, text="Start", command=StartProcesses)
+    start_button.pack()
+    input_button = tk.Button(root, text="Send", command=sendInput)
+    input_button.pack()
+
+    root.bind('<Destroy>', EndProcesses)
+    
+
+    return root    
 
 if __name__ == '__main__':
     
-    # user defined variables
-    logDirectory = 'logs'
-    plotMaxLength = 200
-    timeUnits = 'ms'
-    startChar = '~'
-    endChar = '~'
-
-    d = Queue()
-    inputQ = Queue()
-    exitQ = Queue()
-    lock = Lock()
-    p1 = Process(target=runGraph,args=(d,plotMaxLength,timeUnits,lock))
-    p2 = Process(target=serialProcessor, args=(logDirectory,d,inputQ,lock,startChar,endChar))
-    p1.start()
-    p2.start()
-    try:
-        while(True):
-            inputQ.put(input())
-            print("Input Received")
-    except KeyboardInterrupt:
-            print('Exiting')
-            p1.terminate()
-            p2.terminate()
-            p1.join()
-            p2.join()
-            exitQ
+    root = createGui()
+    root.mainloop()
+            
     
     

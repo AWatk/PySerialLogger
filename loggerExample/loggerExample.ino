@@ -58,7 +58,9 @@ void loop(void) {
   data += endChar; // end with endChar
 
   // send serial messages including data
-  Serial.println("This line will not be plotted, only logged");
+  Serial.print("This line will not be plotted, only logged. Time:");
+  Serial.println(String(millis()));
+
   Serial.print("This line will contain data, preceded by the startChar and ended with the endChar: ");
   Serial.println(data);
   
