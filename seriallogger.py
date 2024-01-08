@@ -12,11 +12,24 @@ from collections import defaultdict
 import tkinter as tk
 from timeit import default_timer as timer
 
-def runGraph(d,maxLength,timeUnits, lock):
+def runGraph(d,maxLength,timeUnits, lock,dataEnableQ, dataLabelQ):
     # define and adjust figure
     fig, ax = plt.subplots()
-    tLabel = 'Time(' + timeUnits + ')'
     data = defaultdict(list)
+    filteredData = {}
+    dataState = {}
+    tLabel = 'Time(' + timeUnits + ')'
+    dataState[tLabel] = True   
+    
+
+    def updateLabelState():
+        while not dataEnableQ.empty():
+            entry = dataEnableQ.get()
+            name = entry[0]
+            state = entry[1]
+            dataState[name] = state
+            if not state and name in data:
+                del data[name]
 
     def dumpQueue():
         newdata = []
@@ -31,12 +44,19 @@ def runGraph(d,maxLength,timeUnits, lock):
             label, val = pt[0].split(':') # assume time is always first
             newDataLabels.append(label)
             data[tLabel].append(float(val)) # use default time label
+
             del data[tLabel][0:-maxLength]
 
             # for all label:val pairs in pt besides time
             for i in range(1,len(pt)):
                 label,val = pt[i].split(':')
                 newDataLabels.append(label)
+
+                # check if label is a new entry and update dataState
+                if label not in dataState:
+                    dataState[label] = True
+                    dataLabelQ.put(label)
+                
                 if label in data:
                     data[label].append(float(val))
                 else:
@@ -48,21 +68,27 @@ def runGraph(d,maxLength,timeUnits, lock):
             for label in list(set(list(data.keys()))-set(newDataLabels)): 
                 data[label].append(data[label][-1])
                 del data[label][0:-maxLength]
-
+            
+            # if label is enabled
+            filteredData.clear()
+            for label in data:
+                if dataState[label]:
+                    filteredData[label] = data[label]
     def animate(i):
+        updateLabelState()
         newdata = dumpQueue()
         if newdata:
             processData(newdata)
         plt.clf()
-        num_subplots = len(data) - 1
+        num_subplots = len(filteredData) - 1
         if num_subplots <= 0:
             num_subplots = 1
-        labels = sorted(list(set(list(data.keys()))-set([tLabel])))
+        labels = sorted(list(set(list(filteredData.keys()))-set([tLabel])))
         gs = plt.GridSpec(num_subplots,1, height_ratios=[1]*num_subplots)  # Create a grid with equal width
         for i in range(0,len(labels)):
             ax = plt.subplot(gs[i,0])
-            t = data[tLabel]
-            y = data[labels[i]]
+            t = filteredData[tLabel]
+            y = filteredData[labels[i]]
             ax.plot(t,y)
             ax.set_ylabel(labels[i])
             ax.relim()
@@ -147,6 +173,9 @@ def createGui():
     inputQ = Queue()
     outputQ = Queue()
     errQ = Queue()
+    dataEnableQ = Queue()
+    dataLabelQ = Queue()
+    labels = []
 
     def StartProcesses():
         logDirectory = logs_entry.get()
@@ -162,12 +191,12 @@ def createGui():
         d = Queue()
         
         lock = Lock()
-        processes.append(Process(target=runGraph,args=(d,plotMaxLength,timeUnits,lock)))
+        processes.append(Process(target=runGraph,args=(d,plotMaxLength,timeUnits,lock,dataEnableQ,dataLabelQ)))
         processes.append(Process(target=serialProcessor, args=(port, baudRate,logDirectory,d,inputQ,outputQ,errQ,lock,startChar,endChar)))
         processes.append(Process(target=monitorInput, args=(inputFn,inputQ)))
         for p in processes:
             p.start()
-        root.after(0, stdoutUpdate)
+        root.after(0, Update)
 
     def EndProcesses(*args):
         if not exitEvent.is_set():
@@ -175,7 +204,7 @@ def createGui():
             for p in processes:
                 p.terminate()
 
-    def stdoutUpdate():
+    def Update():
         console.configure(state=tk.NORMAL)
         #while not outputQ.empty():
         try:
@@ -189,7 +218,19 @@ def createGui():
             pass
         console.see('end')
         console.configure(state=tk.DISABLED)
-        root.after(1,stdoutUpdate)
+
+        while not dataLabelQ.empty():
+            label = dataLabelQ.get()
+            labelVar = tk.IntVar()
+            labelCheckButton = tk.Checkbutton(root, text=label, variable=labelVar, onvalue=1, offvalue=0, command=lambda label=label, labelVar=labelVar: SendDataState(label,labelVar))
+            labelCheckButton.select()
+            labels.append((labelCheckButton))
+            labelCheckButton.pack()
+
+        root.after(1,Update)
+    
+    def SendDataState(label, labelVar):
+        dataEnableQ.put((label,labelVar.get()==1))
 
     def sendInput():
         inputQ.put(inputCon.get())
