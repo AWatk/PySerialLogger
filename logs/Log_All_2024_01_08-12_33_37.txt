@@ -1,0 +1,707 @@
+This line will not be plotted, only logged. Time:1
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):0,Data1:0.00,Data2:0.00,Data3:7.00~
+This line will not be plotted, only logged. Time:36
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):35,Data1:0.55,Data2:1.08~
+This line will not be plotted, only logged. Time:72
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):71,Data1:1.09,Data2:2.05~
+This line will not be plotted, only logged. Time:107
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):106,Data1:1.63,Data2:2.85~
+This line will not be plotted, only logged. Time:143
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):142,Data1:2.14,Data2:3.37~
+This line will not be plotted, only logged. Time:178
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):177,Data1:2.64,Data2:3.63~
+This line will not be plotted, only logged. Time:214
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):212,Data1:3.09,Data2:3.66~
+This line will not be plotted, only logged. Time:249
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):248,Data1:3.50,Data2:3.55~
+This line will not be plotted, only logged. Time:284
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):283,Data1:3.88,Data2:3.38~
+This line will not be plotted, only logged. Time:320
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):319,Data1:4.21,Data2:3.26~
+This line will not be plotted, only logged. Time:356
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):355,Data1:4.48,Data2:3.28,Data3:0.00~
+This line will not be plotted, only logged. Time:393
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):392,Data1:4.71,Data2:3.48~
+This line will not be plotted, only logged. Time:428
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):427,Data1:4.87,Data2:3.88~
+This line will not be plotted, only logged. Time:463
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):462,Data1:4.96,Data2:4.37~
+This line will not be plotted, only logged. Time:499
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):498,Data1:5.00,Data2:4.95~
+This line will not be plotted, only logged. Time:534
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):533,Data1:4.97,Data2:5.48~
+This line will not be plotted, only logged. Time:570
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):569,Data1:4.88,Data2:5.84~
+This line will not be plotted, only logged. Time:606
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):605,Data1:4.74,Data2:5.94~
+This line will not be plotted, only logged. Time:641
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):640,Data1:4.52,Data2:5.75~
+This line will not be plotted, only logged. Time:676
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):675,Data1:4.26,Data2:5.27~
+This line will not be plotted, only logged. Time:712
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):711,Data1:3.95,Data2:4.55,Data3:3.00~
+This line will not be plotted, only logged. Time:749
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):748,Data1:3.57,Data2:3.62~
+This line will not be plotted, only logged. Time:784
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):783,Data1:3.15,Data2:2.65~
+This line will not be plotted, only logged. Time:820
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):819,Data1:2.71,Data2:1.76~
+This line will not be plotted, only logged. Time:856
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):855,Data1:2.21,Data2:1.01~
+This line will not be plotted, only logged. Time:890
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):889,Data1:1.71,Data2:0.48~
+This line will not be plotted, only logged. Time:926
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):925,Data1:1.18,Data2:0.16~
+This line will not be plotted, only logged. Time:962
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):961,Data1:0.63,Data2:0.02~
+This line will not be plotted, only logged. Time:997
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):996,Data1:0.06,Data2:0.00~
+This line will not be plotted, only logged. Time:1033
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1032,Data1:-0.49,Data2:-0.01~
+This line will not be plotted, only logged. Time:1069
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1068,Data1:-1.04,Data2:-0.11,Data3:7.00~
+This line will not be plotted, only logged. Time:1105
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1104,Data1:-1.60,Data2:-0.40~
+This line will not be plotted, only logged. Time:1141
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1140,Data1:-2.13,Data2:-0.90~
+This line will not be plotted, only logged. Time:1177
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1176,Data1:-2.63,Data2:-1.62~
+This line will not be plotted, only logged. Time:1213
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1212,Data1:-3.09,Data2:-2.51~
+This line will not be plotted, only logged. Time:1249
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1248,Data1:-3.51,Data2:-3.48~
+This line will not be plotted, only logged. Time:1285
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1284,Data1:-3.89,Data2:-4.41~
+This line will not be plotted, only logged. Time:1320
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1319,Data1:-4.21,Data2:-5.17~
+This line will not be plotted, only logged. Time:1356
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1355,Data1:-4.49,Data2:-5.70~
+This line will not be plotted, only logged. Time:1392
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1391,Data1:-4.71,Data2:-5.93~
+This line will not be plotted, only logged. Time:1429
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1427,Data1:-4.87,Data2:-5.86,Data3:7.00~
+This line will not be plotted, only logged. Time:1466
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1465,Data1:-4.97,Data2:-5.51~
+This line will not be plotted, only logged. Time:1502
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1501,Data1:-5.00,Data2:-5.00~
+This line will not be plotted, only logged. Time:1538
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1537,Data1:-4.97,Data2:-4.42~
+This line will not be plotted, only logged. Time:1573
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1572,Data1:-4.88,Data2:-3.90~
+This line will not be plotted, only logged. Time:1609
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1608,Data1:-4.72,Data2:-3.50~
+This line will not be plotted, only logged. Time:1645
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1644,Data1:-4.50,Data2:-3.29~
+This line will not be plotted, only logged. Time:1681
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1680,Data1:-4.23,Data2:-3.26~
+This line will not be plotted, only logged. Time:1717
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1716,Data1:-3.90,Data2:-3.37~
+This line will not be plotted, only logged. Time:1753
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1752,Data1:-3.51,Data2:-3.54~
+This line will not be plotted, only logged. Time:1788
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1787,Data1:-3.10,Data2:-3.66,Data3:1.00~
+This line will not be plotted, only logged. Time:1825
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1824,Data1:-2.63,Data2:-3.63~
+This line will not be plotted, only logged. Time:1861
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1860,Data1:-2.13,Data2:-3.36~
+This line will not be plotted, only logged. Time:1897
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1896,Data1:-1.60,Data2:-2.81~
+This line will not be plotted, only logged. Time:1933
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1932,Data1:-1.06,Data2:-2.00~
+This line will not be plotted, only logged. Time:1969
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):1968,Data1:-0.50,Data2:-0.99~
+This line will not be plotted, only logged. Time:2004
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2003,Data1:0.05,Data2:0.09~
+This line will not be plotted, only logged. Time:2040
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2039,Data1:0.61,Data2:1.20~
+This line will not be plotted, only logged. Time:2076
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2075,Data1:1.17,Data2:2.18~
+This line will not be plotted, only logged. Time:2112
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2111,Data1:1.69,Data2:2.92~
+This line will not be plotted, only logged. Time:2148
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2147,Data1:2.21,Data2:3.42,Data3:2.00~
+This line will not be plotted, only logged. Time:2185
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2184,Data1:2.72,Data2:3.65~
+This line will not be plotted, only logged. Time:2221
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2220,Data1:3.17,Data2:3.65~
+This line will not be plotted, only logged. Time:2256
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2255,Data1:3.58,Data2:3.52~
+This line will not be plotted, only logged. Time:2291
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2290,Data1:3.95,Data2:3.35~
+This line will not be plotted, only logged. Time:2327
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2326,Data1:4.27,Data2:3.25~
+This line will not be plotted, only logged. Time:2363
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2362,Data1:4.54,Data2:3.30~
+This line will not be plotted, only logged. Time:2399
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2398,Data1:4.75,Data2:3.55~
+This line will not be plotted, only logged. Time:2435
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2434,Data1:4.89,Data2:3.96~
+This line will not be plotted, only logged. Time:2470
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2469,Data1:4.97,Data2:4.49~
+This line will not be plotted, only logged. Time:2506
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2505,Data1:5.00,Data2:5.06,Data3:8.00~
+This line will not be plotted, only logged. Time:2543
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2542,Data1:4.96,Data2:5.57~
+This line will not be plotted, only logged. Time:2579
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2578,Data1:4.85,Data2:5.88~
+This line will not be plotted, only logged. Time:2615
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2613,Data1:4.69,Data2:5.92~
+This line will not be plotted, only logged. Time:2650
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2649,Data1:4.46,Data2:5.66~
+This line will not be plotted, only logged. Time:2685
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2684,Data1:4.19,Data2:5.11~
+This line will not be plotted, only logged. Time:2721
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2720,Data1:3.85,Data2:4.31~
+This line will not be plotted, only logged. Time:2757
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2756,Data1:3.47,Data2:3.37~
+This line will not be plotted, only logged. Time:2793
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2792,Data1:3.05,Data2:2.44~
+This line will not be plotted, only logged. Time:2829
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2828,Data1:2.59,Data2:1.56~
+This line will not be plotted, only logged. Time:2865
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2864,Data1:2.09,Data2:0.85,Data3:5.00~
+This line will not be plotted, only logged. Time:2902
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2900,Data1:1.56,Data2:0.37~
+This line will not be plotted, only logged. Time:2937
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2935,Data1:1.01,Data2:0.10~
+This line will not be plotted, only logged. Time:2972
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):2971,Data1:0.45,Data2:0.01~
+This line will not be plotted, only logged. Time:3008
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3007,Data1:-0.11,Data2:-0.00~
+This line will not be plotted, only logged. Time:3044
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3043,Data1:-0.67,Data2:-0.03~
+This line will not be plotted, only logged. Time:3080
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3079,Data1:-1.23,Data2:-0.18~
+This line will not be plotted, only logged. Time:3116
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3115,Data1:-1.77,Data2:-0.53~
+This line will not be plotted, only logged. Time:3151
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3150,Data1:-2.27,Data2:-1.08~
+This line will not be plotted, only logged. Time:3187
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3186,Data1:-2.76,Data2:-1.86~
+This line will not be plotted, only logged. Time:3224
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3222,Data1:-3.21,Data2:-2.78,Data3:8.00~
+This line will not be plotted, only logged. Time:3261
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3260,Data1:-3.63,Data2:-3.78~
+This line will not be plotted, only logged. Time:3297
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3296,Data1:-4.00,Data2:-4.67~
+This line will not be plotted, only logged. Time:3333
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3332,Data1:-4.31,Data2:-5.38~
+This line will not be plotted, only logged. Time:3368
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3367,Data1:-4.56,Data2:-5.81~
+This line will not be plotted, only logged. Time:3404
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3403,Data1:-4.76,Data2:-5.94~
+This line will not be plotted, only logged. Time:3440
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3439,Data1:-4.91,Data2:-5.78~
+This line will not be plotted, only logged. Time:3476
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3475,Data1:-4.98,Data2:-5.38~
+This line will not be plotted, only logged. Time:3512
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3511,Data1:-5.00,Data2:-4.84~
+This line will not be plotted, only logged. Time:3548
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3547,Data1:-4.95,Data2:-4.25~
+This line will not be plotted, only logged. Time:3584
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3582,Data1:-4.84,Data2:-3.76,Data3:1.00~
+This line will not be plotted, only logged. Time:3620
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3619,Data1:-4.65,Data2:-3.41~
+This line will not be plotted, only logged. Time:3656
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3655,Data1:-4.42,Data2:-3.26~
+This line will not be plotted, only logged. Time:3692
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3691,Data1:-4.13,Data2:-3.28~
+This line will not be plotted, only logged. Time:3728
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3727,Data1:-3.78,Data2:-3.43~
+This line will not be plotted, only logged. Time:3765
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3763,Data1:-3.39,Data2:-3.59~
+This line will not be plotted, only logged. Time:3801
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3799,Data1:-2.95,Data2:-3.67~
+This line will not be plotted, only logged. Time:3836
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3835,Data1:-2.49,Data2:-3.58~
+This line will not be plotted, only logged. Time:3872
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3871,Data1:-1.99,Data2:-3.23~
+This line will not be plotted, only logged. Time:3908
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3907,Data1:-1.46,Data2:-2.61~
+This line will not be plotted, only logged. Time:3944
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3943,Data1:-0.91,Data2:-1.74,Data3:9.00~
+This line will not be plotted, only logged. Time:3981
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):3980,Data1:-0.33,Data2:-0.66~
+This line will not be plotted, only logged. Time:4017
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4016,Data1:0.24,Data2:0.47~
+This line will not be plotted, only logged. Time:4052
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4051,Data1:0.78,Data2:1.52~
+This line will not be plotted, only logged. Time:4088
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4087,Data1:1.33,Data2:2.44~
+This line will not be plotted, only logged. Time:4123
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4122,Data1:1.87,Data2:3.12~
+This line will not be plotted, only logged. Time:4159
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4158,Data1:2.38,Data2:3.53~
+This line will not be plotted, only logged. Time:4195
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4194,Data1:2.86,Data2:3.67~
+This line will not be plotted, only logged. Time:4231
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4230,Data1:3.31,Data2:3.62~
+This line will not be plotted, only logged. Time:4267
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4265,Data1:3.70,Data2:3.46~
+This line will not be plotted, only logged. Time:4302
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4301,Data1:4.05,Data2:3.31,Data3:0.00~
+This line will not be plotted, only logged. Time:4339
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4338,Data1:4.36,Data2:3.25~
+This line will not be plotted, only logged. Time:4375
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4374,Data1:4.61,Data2:3.36~
+This line will not be plotted, only logged. Time:4411
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4410,Data1:4.80,Data2:3.66~
+This line will not be plotted, only logged. Time:4446
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4445,Data1:4.93,Data2:4.13~
+This line will not be plotted, only logged. Time:4482
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4481,Data1:4.99,Data2:4.70~
+This line will not be plotted, only logged. Time:4517
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4516,Data1:4.99,Data2:5.24~
+This line will not be plotted, only logged. Time:4553
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4552,Data1:4.93,Data2:5.69~
+This line will not be plotted, only logged. Time:4589
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4588,Data1:4.81,Data2:5.93~
+This line will not be plotted, only logged. Time:4625
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4624,Data1:4.63,Data2:5.88~
+This line will not be plotted, only logged. Time:4661
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4660,Data1:4.39,Data2:5.53,Data3:2.00~
+This line will not be plotted, only logged. Time:4698
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4697,Data1:4.08,Data2:4.87~
+This line will not be plotted, only logged. Time:4733
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4732,Data1:3.74,Data2:4.04~
+This line will not be plotted, only logged. Time:4769
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4768,Data1:3.34,Data2:3.08~
+This line will not be plotted, only logged. Time:4804
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4803,Data1:2.90,Data2:2.13~
+This line will not be plotted, only logged. Time:4840
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4839,Data1:2.42,Data2:1.30~
+This line will not be plotted, only logged. Time:4876
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4875,Data1:1.91,Data2:0.66~
+This line will not be plotted, only logged. Time:4912
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4911,Data1:1.38,Data2:0.26~
+This line will not be plotted, only logged. Time:4947
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4946,Data1:0.86,Data2:0.06~
+This line will not be plotted, only logged. Time:4983
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):4982,Data1:0.30,Data2:0.00~
+This line will not be plotted, only logged. Time:5019
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5018,Data1:-0.27,Data2:-0.00,Data3:0.00,Data4:6~
+This line will not be plotted, only logged. Time:5057
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5056,Data1:-0.86,Data2:-0.06,Data4:7~
+This line will not be plotted, only logged. Time:5094
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5092,Data1:-1.43,Data2:-0.28,Data4:15~
+This line will not be plotted, only logged. Time:5131
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5129,Data1:-1.97,Data2:-0.72,Data4:4~
+This line will not be plotted, only logged. Time:5168
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5166,Data1:-2.49,Data2:-1.40,Data4:6~
+This line will not be plotted, only logged. Time:5204
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5202,Data1:-2.96,Data2:-2.26,Data4:23~
+This line will not be plotted, only logged. Time:5241
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5239,Data1:-3.41,Data2:-3.24,Data4:19~
+This line will not be plotted, only logged. Time:5278
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5276,Data1:-3.81,Data2:-4.21,Data4:23~
+This line will not be plotted, only logged. Time:5315
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5313,Data1:-4.16,Data2:-5.05,Data4:10~
+This line will not be plotted, only logged. Time:5352
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5350,Data1:-4.46,Data2:-5.64,Data4:1~
+This line will not be plotted, only logged. Time:5389
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5387,Data1:-4.69,Data2:-5.92,Data3:3.00,Data4:6~
+This line will not be plotted, only logged. Time:5427
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5425,Data1:-4.86,Data2:-5.87,Data4:20~
+This line will not be plotted, only logged. Time:5464
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5462,Data1:-4.96,Data2:-5.54,Data4:19~
+This line will not be plotted, only logged. Time:5500
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5498,Data1:-5.00,Data2:-5.03,Data4:19~
+This line will not be plotted, only logged. Time:5537
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5535,Data1:-4.97,Data2:-4.44,Data4:9~
+This line will not be plotted, only logged. Time:5574
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5572,Data1:-4.87,Data2:-3.89,Data4:19~
+This line will not be plotted, only logged. Time:5611
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5609,Data1:-4.71,Data2:-3.48,Data4:13~
+This line will not be plotted, only logged. Time:5648
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5646,Data1:-4.48,Data2:-3.28,Data4:15~
+This line will not be plotted, only logged. Time:5685
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5683,Data1:-4.20,Data2:-3.26,Data4:9~
+This line will not be plotted, only logged. Time:5722
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5720,Data1:-3.85,Data2:-3.39,Data4:22~
+This line will not be plotted, only logged. Time:5758
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5756,Data1:-3.47,Data2:-3.56,Data3:5.00,Data4:17~
+This line will not be plotted, only logged. Time:5796
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5795,Data1:-3.01,Data2:-3.67,Data4:14~
+This line will not be plotted, only logged. Time:5833
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5832,Data1:-2.53,Data2:-3.60,Data4:10~
+This line will not be plotted, only logged. Time:5870
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5869,Data1:-2.01,Data2:-3.26,Data4:10~
+This line will not be plotted, only logged. Time:5907
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5906,Data1:-1.47,Data2:-2.63,Data4:20~
+This line will not be plotted, only logged. Time:5944
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5943,Data1:-0.91,Data2:-1.74,Data4:18~
+This line will not be plotted, only logged. Time:5981
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):5980,Data1:-0.33,Data2:-0.66,Data4:15~
+This line will not be plotted, only logged. Time:6018
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6017,Data1:0.25,Data2:0.50,Data4:9~
+This line will not be plotted, only logged. Time:6054
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6053,Data1:0.81,Data2:1.57,Data4:11~
+This line will not be plotted, only logged. Time:6091
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6089,Data1:1.38,Data2:2.50,Data4:2~
+This line will not be plotted, only logged. Time:6128
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6126,Data1:1.93,Data2:3.18,Data3:4.00,Data4:20~
+This line will not be plotted, only logged. Time:6165
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6164,Data1:2.46,Data2:3.57,Data4:21~
+This line will not be plotted, only logged. Time:6202
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6201,Data1:2.95,Data2:3.67,Data4:15~
+This line will not be plotted, only logged. Time:6239
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6238,Data1:3.39,Data2:3.59,Data4:8~
+This line will not be plotted, only logged. Time:6276
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6275,Data1:3.79,Data2:3.42,Data4:22~
+This line will not be plotted, only logged. Time:6312
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6310,Data1:4.14,Data2:3.28,Data4:22~
+This line will not be plotted, only logged. Time:6349
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6347,Data1:4.43,Data2:3.26,Data4:10~
+This line will not be plotted, only logged. Time:6385
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6384,Data1:4.67,Data2:3.43,Data4:11~
+This line will not be plotted, only logged. Time:6422
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6421,Data1:4.85,Data2:3.80,Data4:2~
+This line will not be plotted, only logged. Time:6459
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6458,Data1:4.95,Data2:4.31,Data4:0~
+This line will not be plotted, only logged. Time:6496
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6494,Data1:5.00,Data2:4.90,Data3:5.00,Data4:18~
+This line will not be plotted, only logged. Time:6534
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6533,Data1:4.97,Data2:5.46,Data4:1~
+This line will not be plotted, only logged. Time:6571
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6568,Data1:4.89,Data2:5.83,Data4:14~
+This line will not be plotted, only logged. Time:6606
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6605,Data1:4.73,Data2:5.94,Data4:6~
+This line will not be plotted, only logged. Time:6643
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6642,Data1:4.52,Data2:5.74,Data4:1~
+This line will not be plotted, only logged. Time:6680
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6679,Data1:4.24,Data2:5.22,Data4:10~
+This line will not be plotted, only logged. Time:6717
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6716,Data1:3.90,Data2:4.43,Data4:9~
+This line will not be plotted, only logged. Time:6754
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6752,Data1:3.51,Data2:3.48,Data4:14~
+This line will not be plotted, only logged. Time:6790
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6789,Data1:3.08,Data2:2.49,Data4:15~
+This line will not be plotted, only logged. Time:6827
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6825,Data1:2.61,Data2:1.60,Data4:19~
+This line will not be plotted, only logged. Time:6863
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6862,Data1:2.11,Data2:0.88,Data3:0.00,Data4:5~
+This line will not be plotted, only logged. Time:6901
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6900,Data1:1.56,Data2:0.37,Data4:6~
+This line will not be plotted, only logged. Time:6938
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6936,Data1:1.00,Data2:0.10,Data4:2~
+This line will not be plotted, only logged. Time:6974
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):6973,Data1:0.42,Data2:0.01,Data4:8~
+This line will not be plotted, only logged. Time:7011
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7010,Data1:-0.14,Data2:-0.00,Data4:6~
+This line will not be plotted, only logged. Time:7048
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7047,Data1:-0.72,Data2:-0.04,Data4:13~
+This line will not be plotted, only logged. Time:7085
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7084,Data1:-1.29,Data2:-0.21,Data4:22~
+This line will not be plotted, only logged. Time:7121
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7120,Data1:-1.83,Data2:-0.58,Data4:24~
+This line will not be plotted, only logged. Time:7158
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7157,Data1:-2.35,Data2:-1.20,Data4:6~
+This line will not be plotted, only logged. Time:7195
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7194,Data1:-2.85,Data2:-2.03,Data4:14~
+This line will not be plotted, only logged. Time:7232
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7231,Data1:-3.31,Data2:-3.00,Data3:9.00,Data4:0~
+This line will not be plotted, only logged. Time:7270
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7269,Data1:-3.73,Data2:-4.01,Data4:5~
+This line will not be plotted, only logged. Time:7307
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7306,Data1:-4.09,Data2:-4.89,Data4:23~
+This line will not be plotted, only logged. Time:7344
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7343,Data1:-4.40,Data2:-5.54,Data4:10~
+This line will not be plotted, only logged. Time:7380
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7379,Data1:-4.64,Data2:-5.89,Data4:20~
+This line will not be plotted, only logged. Time:7417
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7416,Data1:-4.82,Data2:-5.92,Data4:0~
+This line will not be plotted, only logged. Time:7454
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7453,Data1:-4.94,Data2:-5.65,Data4:6~
+This line will not be plotted, only logged. Time:7491
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7490,Data1:-5.00,Data2:-5.17,Data4:22~
+This line will not be plotted, only logged. Time:7528
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7527,Data1:-4.98,Data2:-4.58,Data4:4~
+This line will not be plotted, only logged. Time:7565
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7564,Data1:-4.90,Data2:-4.01,Data4:0~
+This line will not be plotted, only logged. Time:7602
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7601,Data1:-4.76,Data2:-3.57,Data3:6.00,Data4:12~
+This line will not be plotted, only logged. Time:7640
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7639,Data1:-4.54,Data2:-3.30,Data4:22~
+This line will not be plotted, only logged. Time:7676
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7675,Data1:-4.27,Data2:-3.25,Data4:6~
+This line will not be plotted, only logged. Time:7713
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7712,Data1:-3.94,Data2:-3.35,Data4:15~
+This line will not be plotted, only logged. Time:7750
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7749,Data1:-3.56,Data2:-3.53,Data4:24~
+This line will not be plotted, only logged. Time:7787
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7786,Data1:-3.13,Data2:-3.66,Data4:4~
+This line will not be plotted, only logged. Time:7824
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7823,Data1:-2.65,Data2:-3.64,Data4:8~
+This line will not be plotted, only logged. Time:7861
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7860,Data1:-2.14,Data2:-3.37,Data4:7~
+This line will not be plotted, only logged. Time:7898
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7897,Data1:-1.60,Data2:-2.81,Data4:22~
+This line will not be plotted, only logged. Time:7934
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7933,Data1:-1.06,Data2:-2.00,Data4:1~
+This line will not be plotted, only logged. Time:7971
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):7970,Data1:-0.49,Data2:-0.96,Data3:3.00,Data4:24~
+This line will not be plotted, only logged. Time:8009
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8008,Data1:0.11,Data2:0.22,Data4:16~
+This line will not be plotted, only logged. Time:8046
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8045,Data1:0.69,Data2:1.35,Data4:19~
+This line will not be plotted, only logged. Time:8083
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8081,Data1:1.26,Data2:2.32,Data4:10~
+This line will not be plotted, only logged. Time:8120
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8118,Data1:1.81,Data2:3.06,Data4:23~
+This line will not be plotted, only logged. Time:8156
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8155,Data1:2.34,Data2:3.50,Data4:8~
+This line will not be plotted, only logged. Time:8193
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8192,Data1:2.81,Data2:3.67,Data4:1~
+This line will not be plotted, only logged. Time:8229
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8228,Data1:3.27,Data2:3.63,Data4:16~
+This line will not be plotted, only logged. Time:8266
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8264,Data1:3.69,Data2:3.47,Data4:11~
+This line will not be plotted, only logged. Time:8303
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8301,Data1:4.05,Data2:3.31,Data4:14~
+This line will not be plotted, only logged. Time:8340
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8338,Data1:4.37,Data2:3.25,Data3:9.00,Data4:12~
+This line will not be plotted, only logged. Time:8378
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8376,Data1:4.63,Data2:3.38,Data4:16~
+This line will not be plotted, only logged. Time:8414
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8413,Data1:4.81,Data2:3.70,Data4:12~
+This line will not be plotted, only logged. Time:8451
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8450,Data1:4.94,Data2:4.20,Data4:22~
+This line will not be plotted, only logged. Time:8487
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8486,Data1:4.99,Data2:4.76,Data4:13~
+This line will not be plotted, only logged. Time:8524
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8523,Data1:4.99,Data2:5.33,Data4:23~
+This line will not be plotted, only logged. Time:8561
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8560,Data1:4.91,Data2:5.76,Data4:4~
+This line will not be plotted, only logged. Time:8598
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8596,Data1:4.77,Data2:5.94,Data4:0~
+This line will not be plotted, only logged. Time:8634
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8633,Data1:4.57,Data2:5.81,Data4:10~
+This line will not be plotted, only logged. Time:8671
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8670,Data1:4.31,Data2:5.38,Data4:22~
+This line will not be plotted, only logged. Time:8708
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8707,Data1:3.99,Data2:4.65,Data3:0.00,Data4:5~
+This line will not be plotted, only logged. Time:8745
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8744,Data1:3.61,Data2:3.72,Data4:21~
+This line will not be plotted, only logged. Time:8782
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8781,Data1:3.19,Data2:2.73,Data4:13~
+This line will not be plotted, only logged. Time:8819
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8817,Data1:2.72,Data2:1.79,Data4:1~
+This line will not be plotted, only logged. Time:8855
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8854,Data1:2.21,Data2:1.01,Data4:7~
+This line will not be plotted, only logged. Time:8892
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8891,Data1:1.69,Data2:0.47,Data4:14~
+This line will not be plotted, only logged. Time:8929
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8928,Data1:1.14,Data2:0.14,Data4:10~
+This line will not be plotted, only logged. Time:8966
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):8965,Data1:0.56,Data2:0.02,Data4:18~
+This line will not be plotted, only logged. Time:9003
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9000,Data1:0.00,Data2:0.00,Data4:10~
+This line will not be plotted, only logged. Time:9038
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9037,Data1:-0.58,Data2:-0.02,Data4:15~
+This line will not be plotted, only logged. Time:9076
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9074,Data1:-1.15,Data2:-0.15,Data3:3.00,Data4:2~
+This line will not be plotted, only logged. Time:9114
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9112,Data1:-1.72,Data2:-0.49,Data4:18~
+This line will not be plotted, only logged. Time:9151
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9149,Data1:-2.26,Data2:-1.06,Data4:17~
+This line will not be plotted, only logged. Time:9188
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9186,Data1:-2.76,Data2:-1.86,Data4:19~
+This line will not be plotted, only logged. Time:9225
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9223,Data1:-3.22,Data2:-2.81,Data4:3~
+This line will not be plotted, only logged. Time:9261
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9260,Data1:-3.64,Data2:-3.80,Data4:3~
+This line will not be plotted, only logged. Time:9297
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9296,Data1:-4.01,Data2:-4.69,Data4:10~
+This line will not be plotted, only logged. Time:9334
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9333,Data1:-4.33,Data2:-5.41,Data4:9~
+This line will not be plotted, only logged. Time:9371
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9370,Data1:-4.59,Data2:-5.84,Data4:5~
+This line will not be plotted, only logged. Time:9408
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9407,Data1:-4.79,Data2:-5.94,Data4:7~
+This line will not be plotted, only logged. Time:9445
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9444,Data1:-4.92,Data2:-5.74,Data3:3.00,Data4:3~
+This line will not be plotted, only logged. Time:9483
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9482,Data1:-4.99,Data2:-5.27,Data4:20~
+This line will not be plotted, only logged. Time:9520
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9519,Data1:-4.99,Data2:-4.70,Data4:6~
+This line will not be plotted, only logged. Time:9556
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9555,Data1:-4.93,Data2:-4.13,Data4:3~
+This line will not be plotted, only logged. Time:9593
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9592,Data1:-4.80,Data2:-3.66,Data4:20~
+This line will not be plotted, only logged. Time:9630
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9629,Data1:-4.60,Data2:-3.35,Data4:8~
+This line will not be plotted, only logged. Time:9667
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9666,Data1:-4.34,Data2:-3.25,Data4:1~
+This line will not be plotted, only logged. Time:9704
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9703,Data1:-4.03,Data2:-3.32,Data4:9~
+This line will not be plotted, only logged. Time:9741
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9740,Data1:-3.66,Data2:-3.48,Data4:4~
+This line will not be plotted, only logged. Time:9778
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9777,Data1:-3.24,Data2:-3.64,Data4:24~
+This line will not be plotted, only logged. Time:9815
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9814,Data1:-2.78,Data2:-3.66,Data3:9.00,Data4:17~
+This line will not be plotted, only logged. Time:9852
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9851,Data1:-2.27,Data2:-3.46,Data4:21~
+This line will not be plotted, only logged. Time:9889
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9888,Data1:-1.72,Data2:-2.96,Data4:4~
+This line will not be plotted, only logged. Time:9926
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9925,Data1:-1.18,Data2:-2.20,Data4:20~
+This line will not be plotted, only logged. Time:9963
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9962,Data1:-0.61,Data2:-1.20,Data4:23~
+This line will not be plotted, only logged. Time:10000
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):9999,Data1:-0.03,Data2:-0.06,Data4:21~
+This line will not be plotted, only logged. Time:10037
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10036,Data1:0.56,Data2:1.11,Data4:18~
+This line will not be plotted, only logged. Time:10074
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10073,Data1:1.14,Data2:2.13,Data4:24~
+This line will not be plotted, only logged. Time:10110
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10109,Data1:1.68,Data2:2.90,Data4:21~
+This line will not be plotted, only logged. Time:10147
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10146,Data1:2.21,Data2:3.42,Data4:24~
+This line will not be plotted, only logged. Time:10185
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10183,Data1:2.72,Data2:3.65,Data3:4.00,Data4:8~
+This line will not be plotted, only logged. Time:10223
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10221,Data1:3.20,Data2:3.64,Data4:21~
+This line will not be plotted, only logged. Time:10260
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10258,Data1:3.62,Data2:3.50,Data4:10~
+This line will not be plotted, only logged. Time:10297
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10295,Data1:4.00,Data2:3.33,Data4:1~
+This line will not be plotted, only logged. Time:10334
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10332,Data1:4.32,Data2:3.25,Data4:3~
+This line will not be plotted, only logged. Time:10370
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10369,Data1:4.58,Data2:3.34,Data4:1~
+This line will not be plotted, only logged. Time:10406
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10405,Data1:4.78,Data2:3.62,Data4:5~
+This line will not be plotted, only logged. Time:10443
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10442,Data1:4.92,Data2:4.08,Data4:24~
+This line will not be plotted, only logged. Time:10480
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10479,Data1:4.99,Data2:4.66,Data4:13~
+This line will not be plotted, only logged. Time:10517
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10516,Data1:4.99,Data2:5.24,Data4:0~
+This line will not be plotted, only logged. Time:10555
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10553,Data1:4.93,Data2:5.70,Data3:2.00,Data4:8~
+This line will not be plotted, only logged. Time:10593
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10591,Data1:4.80,Data2:5.93,Data4:17~
+This line will not be plotted, only logged. Time:10630
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10628,Data1:4.60,Data2:5.85,Data4:0~
+This line will not be plotted, only logged. Time:10667
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10664,Data1:4.35,Data2:5.45,Data4:20~
+This line will not be plotted, only logged. Time:10703
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10701,Data1:4.04,Data2:4.76,Data4:11~
+This line will not be plotted, only logged. Time:10740
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10738,Data1:3.67,Data2:3.85,Data4:16~
+This line will not be plotted, only logged. Time:10777
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10775,Data1:3.25,Data2:2.86,Data4:18~
+This line will not be plotted, only logged. Time:10814
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10812,Data1:2.78,Data2:1.91,Data4:15~
+This line will not be plotted, only logged. Time:10851
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10849,Data1:2.28,Data2:1.10,Data4:17~
+This line will not be plotted, only logged. Time:10888
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10886,Data1:1.75,Data2:0.51,Data4:2~
+This line will not be plotted, only logged. Time:10925
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10923,Data1:1.20,Data2:0.17,Data3:7.00,Data4:16~
+This line will not be plotted, only logged. Time:10962
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10961,Data1:0.63,Data2:0.02,Data4:0~
+This line will not be plotted, only logged. Time:10999
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):10998,Data1:0.05,Data2:0.00,Data4:2~
+This line will not be plotted, only logged. Time:11036
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11034,Data1:-0.53,Data2:-0.02,Data4:12~
+This line will not be plotted, only logged. Time:11073
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11072,Data1:-1.11,Data2:-0.13,Data4:0~
+This line will not be plotted, only logged. Time:11110
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11109,Data1:-1.66,Data2:-0.44,Data4:17~
+This line will not be plotted, only logged. Time:11147
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11146,Data1:-2.20,Data2:-0.99,Data4:17~
+This line will not be plotted, only logged. Time:11184
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11183,Data1:-2.72,Data2:-1.79,Data4:24~
+This line will not be plotted, only logged. Time:11222
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11219,Data1:-3.17,Data2:-2.70,Data4:23~
+This line will not be plotted, only logged. Time:11258
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11257,Data1:-3.60,Data2:-3.70,Data4:11~
+This line will not be plotted, only logged. Time:11295
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11294,Data1:-3.98,Data2:-4.62,Data3:9.00,Data4:4~
+This line will not be plotted, only logged. Time:11333
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11332,Data1:-4.32,Data2:-5.39,Data4:4~
+This line will not be plotted, only logged. Time:11371
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11369,Data1:-4.58,Data2:-5.83,Data4:14~
+This line will not be plotted, only logged. Time:11408
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11406,Data1:-4.78,Data2:-5.94,Data4:6~
+This line will not be plotted, only logged. Time:11445
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11444,Data1:-4.92,Data2:-5.74,Data4:10~
+This line will not be plotted, only logged. Time:11482
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11481,Data1:-4.99,Data2:-5.30,Data4:17~
+This line will not be plotted, only logged. Time:11518
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11517,Data1:-4.99,Data2:-4.73,Data4:16~
+This line will not be plotted, only logged. Time:11556
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11554,Data1:-4.93,Data2:-4.14,Data4:17~
+This line will not be plotted, only logged. Time:11593
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11591,Data1:-4.80,Data2:-3.66,Data4:14~
+This line will not be plotted, only logged. Time:11630
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11629,Data1:-4.60,Data2:-3.35,Data4:1~
+This line will not be plotted, only logged. Time:11667
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11666,Data1:-4.34,Data2:-3.25,Data3:1.00,Data4:16~
+This line will not be plotted, only logged. Time:11705
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11704,Data1:-4.01,Data2:-3.32,Data4:21~
+This line will not be plotted, only logged. Time:11743
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11741,Data1:-3.63,Data2:-3.49,Data4:21~
+This line will not be plotted, only logged. Time:11780
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11779,Data1:-3.21,Data2:-3.64,Data4:20~
+This line will not be plotted, only logged. Time:11816
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11815,Data1:-2.76,Data2:-3.66,Data4:15~
+This line will not be plotted, only logged. Time:11853
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11852,Data1:-2.24,Data2:-3.44,Data4:3~
+This line will not be plotted, only logged. Time:11890
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11889,Data1:-1.71,Data2:-2.94,Data4:0~
+This line will not be plotted, only logged. Time:11928
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11926,Data1:-1.15,Data2:-2.15,Data4:13~
+This line will not be plotted, only logged. Time:11965
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):11963,Data1:-0.58,Data2:-1.14,Data4:8~
+This line will not be plotted, only logged. Time:12002
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12001,Data1:-0.00,Data2:-0.00,Data4:2~
+This line will not be plotted, only logged. Time:12039
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12038,Data1:0.58,Data2:1.14,Data3:5.00,Data4:6~
+This line will not be plotted, only logged. Time:12077
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12076,Data1:1.17,Data2:2.18,Data4:16~
+This line will not be plotted, only logged. Time:12113
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12112,Data1:1.71,Data2:2.94,Data4:15~
+This line will not be plotted, only logged. Time:12150
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12149,Data1:2.24,Data2:3.44,Data4:1~
+This line will not be plotted, only logged. Time:12187
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12186,Data1:2.74,Data2:3.66,Data4:11~
+This line will not be plotted, only logged. Time:12224
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12223,Data1:3.21,Data2:3.64,Data4:24~
+This line will not be plotted, only logged. Time:12261
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12260,Data1:3.63,Data2:3.49,Data4:11~
+This line will not be plotted, only logged. Time:12298
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12297,Data1:4.01,Data2:3.32,Data4:15~
+This line will not be plotted, only logged. Time:12335
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12334,Data1:4.33,Data2:3.25,Data4:16~
+This line will not be plotted, only logged. Time:12371
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12370,Data1:4.59,Data2:3.34,Data4:23~
+This line will not be plotted, only logged. Time:12409
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12407,Data1:4.79,Data2:3.64,Data3:1.00,Data4:20~
+This line will not be plotted, only logged. Time:12447
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12445,Data1:4.93,Data2:4.13,Data4:19~
+This line will not be plotted, only logged. Time:12484
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12482,Data1:4.99,Data2:4.71,Data4:2~
+This line will not be plotted, only logged. Time:12521
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12519,Data1:4.99,Data2:5.29,Data4:3~
+This line will not be plotted, only logged. Time:12557
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12556,Data1:4.92,Data2:5.73,Data4:9~
+This line will not be plotted, only logged. Time:12594
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12593,Data1:4.79,Data2:5.94,Data4:24~
+This line will not be plotted, only logged. Time:12631
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12630,Data1:4.59,Data2:5.84,Data4:21~
+This line will not be plotted, only logged. Time:12668
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12666,Data1:4.34,Data2:5.42,Data4:16~
+This line will not be plotted, only logged. Time:12705
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12703,Data1:4.02,Data2:4.71,Data4:20~
+This line will not be plotted, only logged. Time:12742
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12740,Data1:3.64,Data2:3.80,Data4:16~
+This line will not be plotted, only logged. Time:12779
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12777,Data1:3.22,Data2:2.81,Data3:0.00,Data4:8~
+This line will not be plotted, only logged. Time:12817
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12815,Data1:2.75,Data2:1.83,Data4:19~
+This line will not be plotted, only logged. Time:12854
+This line will contain data, preceded by the startChar and ended with the endChar: ~Time(ms):12852,Data1:2.24,Data2:1.04,Data4:18~
+This line will not be plotted, only logged. Time:12891

@@ -11,6 +11,8 @@ import re
 from collections import defaultdict
 import tkinter as tk
 from timeit import default_timer as timer
+import traceback
+import logging
 
 def runGraph(d,maxLength,timeUnits, lock,dataEnableQ, dataLabelQ):
     # define and adjust figure
@@ -114,16 +116,23 @@ def serialProcessor(port,baudRate,logDir,d,inputQ, outQ, errQ,lock, startChar, e
     allFilename = logDir + '/Log_All_' + curTime + '.txt'
     dataFilename = logDir + '/Log_Data_' + curTime + '.txt'
     dataStrRegex = re.compile(re.escape(startChar) + r"(.*)" + re.escape(endChar))
+    connectSuccess = False
     with open(allFilename,'w') as af:
         with open(dataFilename, 'w') as df:
-            ser = serial.Serial(port,baudRate)
-            ser.close()
-            ser.timeout = 110
-            ser.open()
-            time.sleep(0.1)
-            ser.flushInput()
+            try: 
+                ser = serial.Serial(port,baudRate)
+                ser.close()
+                ser.timeout = 110
+                ser.open()
+                time.sleep(0.1)
+                ser.flushInput()
+                connectSuccess = True
+            except Exception as e:
+                #print('oops')
+                print(f'Error: {e}', file=sys.stderr)
+            
             #ser.readline()
-            while True:
+            while connectSuccess:
                 # send any user input on to the serial TX
                 if(not inputQ.empty()):
                     ser.write(inputQ.get().encode("UTF-8") + b'\n')
@@ -149,12 +158,6 @@ def serialProcessor(port,baudRate,logDir,d,inputQ, outQ, errQ,lock, startChar, e
                         d.put(dataTuple)
                 else:
                     print(rxLine) # if not data, print to terminal
-
-def monitorInput(fn,inputQ):
-    sys.stdin = os.fdopen(fn)
-    while True:
-        inputQ.put(input())
-        print("Input Received")
 
 class StdoutRedirector(object):
     def __init__(self, queue):
@@ -193,7 +196,6 @@ def createGui():
         lock = Lock()
         processes.append(Process(target=runGraph,args=(d,plotMaxLength,timeUnits,lock,dataEnableQ,dataLabelQ)))
         processes.append(Process(target=serialProcessor, args=(port, baudRate,logDirectory,d,inputQ,outputQ,errQ,lock,startChar,endChar)))
-        processes.append(Process(target=monitorInput, args=(inputFn,inputQ)))
         for p in processes:
             p.start()
         root.after(0, Update)
@@ -206,16 +208,16 @@ def createGui():
 
     def Update():
         console.configure(state=tk.NORMAL)
-        #while not outputQ.empty():
-        try:
-            console.insert('end',outputQ.get_nowait())
-        except queue.Empty:
-            pass
-        #while not errQ.empty():
-        try: 
-            console.insert('end',errQ.get_nowait(), 'error')
-        except queue.Empty:
-            pass
+        while not outputQ.empty():
+            try:
+                console.insert('end',outputQ.get(False))
+            except queue.Empty:
+                pass
+        while not errQ.empty():
+            try: 
+                console.insert('end',errQ.get(False), 'error')
+            except queue.Empty:
+                pass
         console.see('end')
         console.configure(state=tk.DISABLED)
 
