@@ -56,7 +56,7 @@ def runGraph(d,maxLength,timeUnits, lock,dataEnableQ, dataLabelQ):
 
                 # check if label is a new entry and update dataState
                 if label not in dataState:
-                    dataState[label] = True
+                    dataState[label] = False
                     dataLabelQ.put(label)
                 
                 if label in data:
@@ -159,6 +159,12 @@ def serialProcessor(port,baudRate,logDir,d,inputQ, outQ, errQ,lock, startChar, e
                 else:
                     print(rxLine) # if not data, print to terminal
 
+def monitorInput(fn,inputQ):
+    sys.stdin = os.fdopen(fn)
+    while True:
+        inputQ.put(input())
+        print("Input Received")
+
 class StdoutRedirector(object):
     def __init__(self, queue):
         self.output = queue
@@ -196,6 +202,7 @@ def createGui():
         lock = Lock()
         processes.append(Process(target=runGraph,args=(d,plotMaxLength,timeUnits,lock,dataEnableQ,dataLabelQ)))
         processes.append(Process(target=serialProcessor, args=(port, baudRate,logDirectory,d,inputQ,outputQ,errQ,lock,startChar,endChar)))
+        processes.append(Process(target=monitorInput, args=(inputFn,inputQ)))
         for p in processes:
             p.start()
         root.after(0, Update)
@@ -225,7 +232,7 @@ def createGui():
             label = dataLabelQ.get()
             labelVar = tk.IntVar()
             labelCheckButton = tk.Checkbutton(root, text=label, variable=labelVar, onvalue=1, offvalue=0, command=lambda label=label, labelVar=labelVar: SendDataState(label,labelVar))
-            labelCheckButton.select()
+            #labelCheckButton.select()
             labels.append((labelCheckButton))
             labelCheckButton.pack()
 
