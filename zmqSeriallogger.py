@@ -134,7 +134,12 @@ def serialProcessor(port,baudRate,logDir,d,inputQ, outQ, errQ,lock, startChar, e
             while connectSuccess:
                 # send any user input on to the serial TX
                 if(not inputQ.empty()):
-                    ser.write(inputQ.get().encode("UTF-8") + b'\n')
+                    tmp = inputQ.get()
+                    try:
+                        tmp = tmp.encode("UTF-8")
+                    except Exception:
+                        pass
+                    ser.write(tmp + b'\n')
 
                 # get next RX line
                 rxLine = ser.readline().decode().rstrip()
@@ -214,7 +219,7 @@ def createGui():
         processes.append(Process(target=runGraph,args=(d,plotMaxLength,timeUnits,lock,dataEnableQ,dataLabelQ)))
         processes.append(Process(target=serialProcessor, args=(port, baudRate,logDirectory,d,inputQ,outputQ,errQ,lock,startChar,endChar)))
         processes.append(Process(target=monitorInput, args=(inputFn,inputQ)))
-        processes.append(Process(target=zmqServer, arg=(zmqPort, inputQ)))
+        processes.append(Process(target=zmqServer, args=(zmqPort, inputQ)))
         for p in processes:
             p.start()
         root.after(0, Update)
@@ -334,6 +339,3 @@ if __name__ == '__main__':
     
     root = createGui()
     root.mainloop()
-            
-    
-    
