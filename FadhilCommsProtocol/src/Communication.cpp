@@ -93,7 +93,7 @@ void Communication::parseAndDispatch() {
   for (int i = 0; i < cmdCount_; ++i) {
     // case-insensitive match
     if (strcasecmp(tokens[0], cmdNames_[i]) == 0) {
-      cmdFuncs_[i](tokens);
+      cmdFuncs_[i](tokens+1);
       return;
     }
   }
