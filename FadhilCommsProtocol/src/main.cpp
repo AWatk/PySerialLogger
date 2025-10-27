@@ -26,7 +26,7 @@ Communication comm;
 
 // -------------------- HANDLERS --------------------
 
-// <led,1> or <led,0>
+// <l,1> or <l,0>
 void HandleLed(char** inputs) {
   if (inputs[0] == nullptr) { Serial.println(F("ERR,led,ARGS")); return; }
   int state = atoi(inputs[0]);
