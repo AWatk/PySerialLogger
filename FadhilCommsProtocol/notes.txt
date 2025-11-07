@@ -1,0 +1,10 @@
+{
+        "enable": {
+          "syntax" : "<e>",
+          "arguments": []
+        },
+        "setpoint": {
+          "syntax": ["<setpoint, TEMP", "<setpoint, ..."]
+          "arguments: ["float", "float", ...] 
+        } 
+      }

@@ -12,13 +12,18 @@ using HandleFunc = void (*)(char** inputs);
 
 class Communication {
 public:
-  Communication() = default;
+  // Communication() = default;
+  Communication(){
+    addCommand("help", &help);
+  };
 
   void begin(unsigned long baud = 115200);
   void processSerial();                         // call this in loop()
 
   // cmd is the string to match against inputs[0], e.g. "led", "blink"
-  bool addCommand(const char* cmd, HandleFunc func);
+  bool addCommand(const char* cmd, HandleFunc func, const char* help);
+  void commands();
+  void help(); // built in command, tied to "h" or "help"
 
 private:
   void recvWithStartEndMarkers();               // assemble rx_buf_ between < >
@@ -28,7 +33,10 @@ private:
   // registry of known commands
   const char* cmdNames_[kMaxCmds];
   HandleFunc  cmdFuncs_[kMaxCmds];
+  const char* cmdHelp_[kMaxCmds];
   int         cmdCount_ = 0;
+
+  const char* helpString_ = "This is the help string\0";
 
   // receive state machine
   char   rx_buf_[kMaxMsg];
@@ -37,3 +45,5 @@ private:
 };
 
 #endif
+
+
