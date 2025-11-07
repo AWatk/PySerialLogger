@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "Communication.h"
 
+
 // === CONFIG ===
 static const int LED_PIN = 2;  // onboard LED on ESP32-S
 
