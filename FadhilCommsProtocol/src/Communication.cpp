@@ -4,10 +4,11 @@ void Communication::begin(unsigned long baud) {
   Serial.begin(baud);
 }
 
-bool Communication::addCommand(const char* cmd, HandleFunc func) {
+bool Communication::addCommand(const char* cmd, HandleFunc func, const char* cmdDetails) {
   if (cmdCount_ >= (int)kMaxCmds) return false;
   cmdNames_[cmdCount_] = cmd;
   cmdFuncs_[cmdCount_] = func;
+  cmdDetails_[cmdCount_] = cmdDetails;
   ++cmdCount_;
   return true;
 }
@@ -89,6 +90,9 @@ void Communication::parseAndDispatch() {
     return;
   }
 
+  // intrinsic help
+  if (strcasecmp(tokens[0], "help") == 0) { printHelpJson(); return; }
+
   // look up which command handler to call
   for (int i = 0; i < cmdCount_; ++i) {
     // case-insensitive match
@@ -100,4 +104,25 @@ void Communication::parseAndDispatch() {
 
   Serial.print(F("ERR,UNKNOWN_CMD,"));
   Serial.println(tokens[0]);
+}
+
+void Communication::printHelpJson() {
+  Serial.print(F("{\"commands\":{"));
+
+  for (int i = 0; i < cmdCount_; ++i) {
+    if (i) Serial.print(',');
+
+    // key: "cmdName":
+    Serial.print('\"');
+    Serial.print(cmdNames_[i]);
+    Serial.print("\":");
+
+    // the metadata JSON is stored as a *raw string literal* (valid JSON object)
+    const char* details = cmdDetails_[i];
+    if (details && *details) {
+      // Just print it directly — no escaping required.
+      Serial.print(details);
+    }
+  }
+  Serial.println(F("}}"));
 }

@@ -2,6 +2,8 @@
 #include "Communication.h"
 #include "Thermistor.h"
 #include "daqAD5391.h"
+#include "CommandDetails.h"
+
 
 // ----------------- Hardware config  -----------------
 static const uint8_t NUM_TEMS = 4;   // how many thermistors you actually use (<=16)
@@ -208,9 +210,6 @@ void setup() {
   digitalWrite(SYSTEM_ENABLE_PIN, LOW);
   enabled = false;
 
-  // ThermistorArray is fully initialized by its constructor (it calls updateArraySettings + initThermistors)
-  // (No therms.begin() in your API.)
-
   // DAC init
   dacInit();
 
@@ -219,16 +218,16 @@ void setup() {
 
   // New protocol: register commands (tokens → handlers with args starting at inputs[0])
   comm.begin(115200);
-  comm.addCommand("e",  &HandleEnable);
-  comm.addCommand("d",  &HandleDisable);
-  comm.addCommand("s",  &HandleSetpoint);
-  comm.addCommand("r",  &HandleReset);
-  comm.addCommand("t",  &HandleTemps);
+  comm.addCommand("e",  &HandleEnable, DETAILS_ENABLE);
+  comm.addCommand("d",  &HandleDisable, DETAILS_DISABLE);
+  comm.addCommand("s",  &HandleSetpoint, DETAILS_SETPOINT);
+  comm.addCommand("r",  &HandleReset, DETAILS_RESET);
+  comm.addCommand("t",  &HandleTemps, DETAILS_TEMPS);
 
   // DAC helpers
-  comm.addCommand("v",  &HandleDacOne);
-  comm.addCommand("va", &HandleDacArray);
-  comm.addCommand("vr", &HandleDacAllSame);
+  comm.addCommand("v",  &HandleDacOne, DETAILS_DAC_ONE);
+  comm.addCommand("va", &HandleDacArray, DETAILS_DAC_ARRAY);
+  comm.addCommand("vr", &HandleDacAllSame, DETAILS_DAC_ALL);
 
   Serial.println(F("READY,THERMAL"));
 }
