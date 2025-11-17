@@ -4,23 +4,23 @@
 // --- Enable ---
 static const char* DETAILS_ENABLE = R"({
   "label": "Enable system",
-  "variants": {
-    "default": {
-      "command": "e",
-      "inputs": []
-    }
-  }
+  "command": "e",
+  "default": {
+    "name": "default",
+    "inputs": []
+  },
+  "variants": []
 })";
 
 // --- Disable ---
 static const char* DETAILS_DISABLE = R"({
   "label": "Disable system",
-  "variants": {
-    "default": {
-      "command": "d",
-      "inputs": []
-    }
-  }
+  "command": "d",
+  "default": {
+    "name": "default",
+    "inputs": []
+  },
+  "variants": []
 })";
 
 // --- Setpoint ---
@@ -30,11 +30,11 @@ static const char* DETAILS_SETPOINT = R"({
   "default": {
     "name": "single",
     "inputs": [
-        { "name": "IDX", "type": "int" },
-        { "name": "VAL", "type": "float" }
-      ]
+      { "name": "IDX", "type": "int" },
+      { "name": "VAL", "type": "float" }
+    ]
   },
-  "variants":[
+  "variants": [
     {
       "name": "all",
       "inputs": [
@@ -44,69 +44,66 @@ static const char* DETAILS_SETPOINT = R"({
   ]
 })";
 
-// --- DAC single channel ---
+// --- DAC: single channel ---
 static const char* DETAILS_DAC_ONE = R"({
   "label": "Set DAC channel voltage",
-  "variants": {
-    "default": {
-      "command": "<v,idx,volts>",
-      "inputs": [
-        { "name": "idx", "type": "int" },
-        { "name": "volts", "type": "float" }
-      ]
-    }
-  }
+  "command": "v",
+  "default": {
+    "name": "single",
+    "inputs": [
+      { "name": "IDX", "type": "int" },
+      { "name": "VOLTS", "type": "float" }
+    ]
+  },
+  "variants": []
 })";
 
 // --- DAC: write first N mapped channels ---
-const char* DETAILS_DAC_ARRAY = R"({
+static const char* DETAILS_DAC_ARRAY = R"({
   "label": "Set first N DAC channels",
-  "variants": {
-    "default": {
-      "command": "<va,v1,v2,...>",
-      "inputs": [
-        { "name": "v1", "type": "float", "units": "V", "repeat": true  },
-      ]
-    }
-  }
+  "command": "va",
+  "default": {
+    "name": "array",
+    "inputs": [
+      { "name": "V", "type": "float", "repeat": true }
+    ]
+  },
+  "variants": []
 })";
 
 // --- DAC: set all mapped channels to same voltage ---
-const char* DETAILS_DAC_ALL = R"({
+static const char* DETAILS_DAC_ALL = R"({
   "label": "Set all DAC channels to same voltage",
-  "variants": {
-    "default": {
-      "command": "<vr,volts>",
-      "inputs": [
-        { "name": "volts", "type": "float", "units": "V" }
-      ]
-    }
-  }
+  "command": "vr",
+  "default": {
+    "name": "uniform",
+    "inputs": [
+      { "name": "VOLTS", "type": "float" }
+    ]
+  },
+  "variants": []
 })";
 
-// --- Telemetry: report temps + setpoints ---
-const char* DETAILS_TEMPS = R"({
+// --- Telemetry: temps + setpoints ---
+static const char* DETAILS_TEMPS = R"({
   "label": "Report temperatures and setpoints",
-  "variants": {
-    "default": {
-      "command": "<t>",
-      "inputs": []
-    }
-  }
+  "command": "t",
+  "default": {
+    "name": "default",
+    "inputs": []
+  },
+  "variants": []
 })";
 
-// --- DAC reset: load CLR value to outputs ---
-const char* DETAILS_RESET = R"({
+// --- DAC Reset ---
+static const char* DETAILS_RESET = R"({
   "label": "Reset DAC to CLR value",
-  "variants": {
-    "default": {
-      "command": "<r>",
-      "inputs": []
-    }
-  }
+  "command": "r",
+  "default": {
+    "name": "default",
+    "inputs": []
+  },
+  "variants": []
 })";
-
-
-// ... add more DETAILS_* definitions for each command
 
 #endif
