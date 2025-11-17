@@ -235,4 +235,5 @@ void setup() {
 void loop() {
   comm.processSerial();
   // If/when you add control, do it here; e.g. read temps, compare to setpoints, write DAC.
+  Serial.println("Looping...");
 }

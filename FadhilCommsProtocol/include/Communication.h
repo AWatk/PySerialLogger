@@ -13,6 +13,7 @@ using HandleFunc = void (*)(char** inputs);
 class Communication {
 public:
   // Communication() = default;
+  Communication();
   //include help thing that lists all respective methods
   void begin(unsigned long baud = 115200);
   void processSerial();                         // call this in loop()

@@ -6,7 +6,7 @@ static const char* DETAILS_ENABLE = R"({
   "label": "Enable system",
   "variants": {
     "default": {
-      "command": "<e>",
+      "command": "e",
       "inputs": []
     }
   }
@@ -17,7 +17,7 @@ static const char* DETAILS_DISABLE = R"({
   "label": "Disable system",
   "variants": {
     "default": {
-      "command": "<d>",
+      "command": "d",
       "inputs": []
     }
   }
@@ -26,23 +26,22 @@ static const char* DETAILS_DISABLE = R"({
 // --- Setpoint ---
 static const char* DETAILS_SETPOINT = R"({
   "label": "Set temperature setpoints",
-  "variants": {
-    "all": {
-      "command": "<s,VAL>",
-      "inputs": [ { "name": "VAL", "type": "float" } ]
-    },
-    "relative": {
-      "command": "<s,+DELTA>",
-      "inputs": [ { "name": "DELTA", "type": "float" } ]
-    },
-    "single": {
-      "command": "<s,IDX,VAL>",
-      "inputs": [
+  "command": "s",
+  "default": {
+    "name": "single",
+    "inputs": [
         { "name": "IDX", "type": "int" },
         { "name": "VAL", "type": "float" }
       ]
+  },
+  "variants":[
+    {
+      "name": "all",
+      "inputs": [
+        { "name": "VAL", "type": "float" }
+      ]
     }
-  }
+  ]
 })";
 
 // --- DAC single channel ---

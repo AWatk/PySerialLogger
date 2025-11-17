@@ -1,5 +1,10 @@
 #include "Communication.h"
 
+Communication::Communication()
+{
+  // addCommand("help", &printHelpJson, "\0");
+}
+
 void Communication::begin(unsigned long baud) {
   Serial.begin(baud);
 }
